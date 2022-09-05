@@ -30,7 +30,7 @@ namespace Modul3
 
             //c
             Console.WriteLine("Jeg udskriver elementerne i et givet interval, fra element nr. 14 til element nr 23");
-            for (int k = 14; k < 24; k++)
+            for (int k = 13; k < 23; k++)
             {
                 Console.WriteLine(randomArray[k]);
             }
@@ -61,7 +61,7 @@ namespace Modul3
 
 
             //metodekald - returværdien gemmes i en variabel
-            int gangettal = Gange(3, 4);
+            int resultat = Gange(3, 4);
 
 
 
@@ -70,7 +70,7 @@ namespace Modul3
 
 
         //metode signatur
-        static Int32 Gange(Int32 tal1, Int32 tal2)
+        static int Gange(int tal1, int tal2)
         {
             //returneringsværdien skal matche den returværdi signaturen indeholder
             return tal1 * tal2;

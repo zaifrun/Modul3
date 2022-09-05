@@ -9,7 +9,7 @@ namespace Modul3
         static void Main(string[] args)
         {
             int[] numbers = { 4, 7, 1, 9, 3, 6, 2 };
-            int highest = Int32.MinValue;
+            int highest = Int32.MinValue; //eller man kan sætte highest = numbers[0]
             for (int i = 0; i < numbers.Length; i++)
             {
                 if (numbers[i] > highest)
