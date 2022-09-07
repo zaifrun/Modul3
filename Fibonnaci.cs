@@ -41,6 +41,7 @@ namespace Modul3
             {
                 list.Add(0);
                 list.Add(1);
+                //evt. console writeln her hvis man vil
                 FibonnaciList(max, list);
             }
             else 
@@ -50,6 +51,7 @@ namespace Modul3
                 if (nytTal <= max)
                 {
                     list.Add(nytTal);
+                    //evt. console writeln her hvis man vil
                     FibonnaciList(max, list);
                 }
 
